@@ -1,7 +1,7 @@
 .heading{ font-family:'Open Sans';font-size:5rem;text-align:center; }
 .alignMiddle{ text-align:center }
-.circle{ border-radius: 100%;background: black;padding: 50%; }
+.circle{ border-radius: 100%;background: black;padding: 50%;;border:10px solid #00aaaa;margin-left:-10px }
 .circleText{ 
   color:white;text-shadow: 2px 2px #aaa;
-  position:absolute;top:50%;left:0;right:0;margin-top:-2rem;
+  position:absolute;top:50%;left:-10px;right:0;margin-top:-2rem;
   font-size:4rem;font-family: 'Orbitron', sans-serif; }
