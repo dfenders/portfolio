@@ -1,21 +1,17 @@
 ---
 layout: default
 title: Adon's portfolio
+tags: 
+- Software engineering
+- Project 1
+- Project 2
 ---
 <div class="row alignMiddle">
+	{% for tag in page.tags %}
 	<div class="col-md-4">
 		<div class="circle">
-			Software engineering
+			{{ tag }}
 		</div>
 	</div>
-	<div class="col-md-4">
-		<div class="circle">
-			Project 1
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="circle">
-			Project 2
-		</div>
-	</div>
+	{% endfor %}
 </div>
