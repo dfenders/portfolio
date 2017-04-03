@@ -1,3 +1,4 @@
+.heading{ font-family:'Open Sans';font-size:5rem;text-align:center; }
 .alignMiddle{ text-align:center }
 .circle{ border-radius: 100%;background: black;padding: 50%; }
-.circleText{ color:white;position:absolute;top:50%;left:0;right:0;font-size:32px;font-family: 'Orbitron', sans-serif; text-shadow: 2px 2px #aaa; }
+.circleText{ color:white;position:absolute;top:50%;left:0;right:0;font-size:4rem;font-family: 'Orbitron', sans-serif; text-shadow: 2px 2px #aaa; }
