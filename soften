@@ -1,0 +1,13 @@
+---
+layout: default
+tag: Software engineering
+---
+<div class="row alignMiddle">
+	<div class="col-md-4">
+		<div class="circle"></div>
+		<div class="circleText">{{ tag }}</div>
+	</div>
+  <div class="col-md-8">
+    Some text goes here.
+  </div>
+</div>
