@@ -1,16 +1,22 @@
 ---
 layout: default
 title: Adon's portfolio
-tags: {name:Software Engineering, url:soften}
+pages:
+  - name: Software Engineering
+    url: soften
+  - name: Project 1
+    url: project1    
+  - name: Project 2
+    url: project2
 ---
 <h1 class="heading">Adon Moskal's online portfolio</h1>
 <div class="row alignMiddle">
-	{{#each page.tags }}
-	<a href="{{ .url }}">
+	{% for item in page.pages %}
+	<a href="{{ item.url }}">
 		<div class="col-md-4">
-			<div class="circleText">{{ .name }}</div>
+			<div class="circleText">{{ item.name }}</div>
 			<div class="circle"></div>		
 		</div>
 	</a>
-	{{/each}}
+	{% endfor %}
 </div>
