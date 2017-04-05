@@ -24,6 +24,10 @@ layout: default
   	</div>
   	<div class="col-md-4">
 		<h3>Useful links</h3>
-		{{ page.links }}
+		<ul>
+		{% for item in page.links %}
+			<a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
+		{% endfor %}
+		</ul>
   	</div>
 </div>
