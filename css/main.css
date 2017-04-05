@@ -1,4 +1,7 @@
 h1{ font-family:'Open Sans';font-size:5rem;margin-bottom:60px; }
+img { max-width:100% }
+a { font-weight:bold; color:#00aaaa }
+
 .heading{ text-align:center; }
 .alignMiddle{ text-align:center }
 .alignLeft{ text-align:left }
