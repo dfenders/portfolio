@@ -1,7 +1,7 @@
 h1{ font-family:'Open Sans';font-size:5rem;margin-bottom:60px; }
 .heading{ text-align:center; }
 .alignMiddle{ text-align:center }
-.circle{ border-radius: 100%;background: black;padding: 50%;box-shadow:inset 0 0 0 10px #00aaaa;transition:all 0.3s ease; }
+.circle, .circleSmall{ border-radius: 100%;background: black;padding: 50%;box-shadow:inset 0 0 0 10px #00aaaa;transition:all 0.3s ease; }
 .circleText{ 
   color:white;text-shadow: 2px 2px #aaa;
   position:absolute;top:50%;left:0;right:0;margin-top:-2rem;
