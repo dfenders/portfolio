@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Adon's portfolio
-pages: {name:Software Engineering, url:soften}
+tags: {name:Software Engineering, url:soften}
 ---
 <h1 class="heading">Adon Moskal's online portfolio</h1>
 <div class="row alignMiddle">
-	{% for p in page.pages %}
-	<a href="p.url">
+	{% for p in page.tags %}
+	<a href="{{ p.url }}">
 		<div class="col-md-4">
 			<div class="circleText">{{ p.name }}</div>
 			<div class="circle"></div>		
