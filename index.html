@@ -1,19 +1,16 @@
 ---
 layout: default
 title: Adon's portfolio
-pages: 
-- Software engineering
-- Project 1
-- Project 2
+pages: {name:Software Engineering, url:soften}
 ---
 <h1 class="heading">Adon Moskal's online portfolio</h1>
 <div class="row alignMiddle">
-	{{#each pages }}
-	<a href="#">
+	{% for p in page.pages %}
+	<a href="p.url">
 		<div class="col-md-4">
-			<div class="circleText">{{.}}</div>
+			<div class="circleText">{{ p.name }}</div>
 			<div class="circle"></div>		
 		</div>
 	</a>
-	{{/each}}
+	{% endfor %}
 </div>
