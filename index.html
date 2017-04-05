@@ -5,12 +5,12 @@ tags: {name:Software Engineering, url:soften}
 ---
 <h1 class="heading">Adon Moskal's online portfolio</h1>
 <div class="row alignMiddle">
-	{% for p in page.tags %}
-	<a href="{{ p.url }}">
+	{{#each page.tags }}
+	<a href="{{ .url }}">
 		<div class="col-md-4">
-			<div class="circleText">{{ p.name }}</div>
+			<div class="circleText">{{ .name }}</div>
 			<div class="circle"></div>		
 		</div>
 	</a>
-	{% endfor %}
+	{{/each}}
 </div>
