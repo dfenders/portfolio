@@ -9,9 +9,11 @@ tags:
 <h1 class="heading">Adon Moskal's online portfolio</h1>
 <div class="row alignMiddle">
 	{% for tag in page.tags %}
-	<div class="col-md-4">
-		<div class="circleText">{{ tag }}</div>
-		<div class="circle"></div>		
-	</div>
+	<a href="#">
+		<div class="col-md-4">
+			<div class="circleText">{{ tag }}</div>
+			<div class="circle"></div>		
+		</div>
+	</a>
 	{% endfor %}
 </div>
