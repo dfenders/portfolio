@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Adon's portfolio
+title: Adon Moskal's online portfolio
 pages:
   - name: Software Engineering
     url: soften
@@ -9,7 +9,7 @@ pages:
   - name: Project 2
     url: project2
 ---
-<h1 class="heading">Adon Moskal's online portfolio</h1>
+<h1 class="heading">{{ title }}</h1>
 <div class="row alignMiddle">
 	{% for item in page.pages %}
 	<a href="{{ item.url }}">
